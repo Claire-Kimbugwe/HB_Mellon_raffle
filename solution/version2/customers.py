@@ -1,6 +1,4 @@
-"""Read customer data from file and run a raffle."""
-
-from random import choice
+"""Customer class definition"""
 
 
 class Customer(object):
@@ -17,8 +15,8 @@ class Customer(object):
 def get_customers_from_file(customer_file_path):
     """Read customer file and return list of customer objects.
 
-    Read file at customer_file_path and create a customer object
-    containing customer information.
+    Read file at customer_file_path and create a customer
+    object containing customer information.
     """
 
     customers = []
@@ -33,37 +31,12 @@ def get_customers_from_file(customer_file_path):
         customer_data = line.strip().split("|")
         name, email, street, city, zipcode = customer_data
 
-        new_customer = Customer(name, email, street, city, zipcode)
+        new_customer = Customer(name,
+                                email,
+                                street,
+                                city,
+                                zipcode)
+
         customers.append(new_customer)
 
     return customers
-
-
-def pick_winner(customers):
-    """Choose a random winner from list of customers."""
-
-    chosen_customer = choice(customers)
-
-    print("Tell {name} at {email} that they've won".format(
-        name=chosen_customer.name,
-        email=chosen_customer.email
-        ))
-
-
-def run_raffle():
-    """Run the weekly raffle."""
-
-    customers = get_customers_from_file("customers.txt")
-    pick_winner(customers)
-
-
-run_raffle()
-
-
-
-
-
-
-
-
-
