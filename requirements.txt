@@ -1,0 +1,31 @@
+Collecting IPython
+  Using cached https://files.pythonhosted.org/packages/f0/b4/a9ea018c73a84ee6280b2e94a1a6af8d63e45903eac2da0640fa63bca4db/ipython-7.2.0-py3-none-any.whl
+Collecting backcall (from IPython)
+Collecting setuptools>=18.5 (from IPython)
+  Using cached https://files.pythonhosted.org/packages/37/06/754589caf971b0d2d48f151c2586f62902d93dc908e2fd9b9b9f6aa3c9dd/setuptools-40.6.3-py2.py3-none-any.whl
+Collecting pickleshare (from IPython)
+  Using cached https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl
+Collecting pexpect; sys_platform != "win32" (from IPython)
+  Using cached https://files.pythonhosted.org/packages/89/e6/b5a1de8b0cc4e07ca1b305a4fcc3f9806025c1b651ea302646341222f88b/pexpect-4.6.0-py2.py3-none-any.whl
+Collecting pygments (from IPython)
+  Using cached https://files.pythonhosted.org/packages/13/e5/6d710c9cf96c31ac82657bcfb441df328b22df8564d58d0c4cd62612674c/Pygments-2.3.1-py2.py3-none-any.whl
+Collecting decorator (from IPython)
+  Using cached https://files.pythonhosted.org/packages/bc/bb/a24838832ba35baf52f32ab1a49b906b5f82fb7c76b2f6a7e35e140bac30/decorator-4.3.0-py2.py3-none-any.whl
+Collecting prompt-toolkit<2.1.0,>=2.0.0 (from IPython)
+  Using cached https://files.pythonhosted.org/packages/d1/e6/adb3be5576f5d27c6faa33f1e9fea8fe5dbd9351db12148de948507e352c/prompt_toolkit-2.0.7-py3-none-any.whl
+Collecting jedi>=0.10 (from IPython)
+  Using cached https://files.pythonhosted.org/packages/c2/bc/54d53f5bc4658380d0eca9055d72be4df45e5bfd91a4bac97da224a92553/jedi-0.13.2-py2.py3-none-any.whl
+Collecting traitlets>=4.2 (from IPython)
+  Using cached https://files.pythonhosted.org/packages/93/d6/abcb22de61d78e2fc3959c964628a5771e47e7cc60d53e9342e21ed6cc9a/traitlets-4.3.2-py2.py3-none-any.whl
+Collecting ptyprocess>=0.5 (from pexpect; sys_platform != "win32"->IPython)
+  Using cached https://files.pythonhosted.org/packages/d1/29/605c2cc68a9992d18dada28206eeada56ea4bd07a239669da41674648b6f/ptyprocess-0.6.0-py2.py3-none-any.whl
+Collecting six>=1.9.0 (from prompt-toolkit<2.1.0,>=2.0.0->IPython)
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting wcwidth (from prompt-toolkit<2.1.0,>=2.0.0->IPython)
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting parso>=0.3.0 (from jedi>=0.10->IPython)
+  Using cached https://files.pythonhosted.org/packages/09/51/9c48a46334be50c13d25a3afe55fa05c445699304c5ad32619de953a2305/parso-0.3.1-py2.py3-none-any.whl
+Collecting ipython-genutils (from traitlets>=4.2->IPython)
+  Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Installing collected packages: backcall, setuptools, pickleshare, ptyprocess, pexpect, pygments, decorator, six, wcwidth, prompt-toolkit, parso, jedi, ipython-genutils, traitlets, IPython
+Successfully installed IPython-7.2.0 backcall-0.1.0 decorator-4.3.0 ipython-genutils-0.2.0 jedi-0.13.2 parso-0.3.1 pexpect-4.6.0 pickleshare-0.7.5 prompt-toolkit-2.0.7 ptyprocess-0.6.0 pygments-2.3.1 setuptools-40.6.3 six-1.12.0 traitlets-4.3.2 wcwidth-0.1.7
